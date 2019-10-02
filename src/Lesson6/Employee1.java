@@ -1,7 +1,6 @@
 package Lesson6;
 
 public class Employee1 {
-
     Employee1(String surname3, int age3){
         this(0, surname3, age3, 0.0, null);
     }
@@ -16,6 +15,19 @@ public class Employee1 {
         age = age4;
         salary = salary4;
         department = department4;
+    }
+
+    Employee1(double salary5){
+        salary = salary5;
+    }
+
+    Employee1(int id6){
+        id = id6;
+    }
+
+    Employee1(int id5, String surname5){
+        id = id5;
+        surname = surname5;
     }
 
     protected int id;
@@ -33,10 +45,7 @@ public class Employee1 {
     public void showSalary(){
         System.out.println(salary);
     }
-    private Eployee1(int age1, String department1){
-        age = age1;
-        department = department1;
-    }
+
 }
 
 class EmployeeTest{

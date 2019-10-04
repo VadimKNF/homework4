@@ -1,5 +1,8 @@
 package Lesson5;
 
+import Lesson6.Employee1;
+import Lesson7.Employee;
+
 public class Test20 {
     int sum(int a, int b, int c){
         return a + b + c;
@@ -15,5 +18,7 @@ class Test21{
         Test20 t = new Test20();
         System.out.println("digit sum: " + t.sum(1, 2, 3));
         System.out.println("digit average: " + t.averageCount(1, 2, 3));
+        Employee1 e2 = new Employee1(500);
+        e2.showSalary();
     }
 }

@@ -17,11 +17,11 @@ public class Employee1 {
         department = department4;
     }
 
-    Employee1(double salary5){
+    public Employee1(double salary5){
         salary = salary5;
     }
 
-    Employee1(int id6){
+    private Employee1(int id6){
         id = id6;
     }
 
@@ -53,6 +53,9 @@ class EmployeeTest{
         Employee1 emp1 = new Employee1(1, "Ivanov", 12);
         Employee1 emp2 = new Employee1("Petrov", 78);
         Employee1 emp3 = new Employee1(2, "Sidorov", 45, 34, "management");
+        Employee1 emp4 = new Employee1(34, "pusechkin");
         System.out.println(emp3.department);
+        emp4.showId();
+
     }
 }

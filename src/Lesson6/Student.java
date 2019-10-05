@@ -1,3 +1,5 @@
+package Lesson6;
+
 public class Student {
 
     Student(String n1, String c1, int cardNum1, int courseNum1){

@@ -1,6 +1,4 @@
-package L5HW;
-
-import org.w3c.dom.ls.LSOutput;
+package Lesson5.L5HW;
 
 public class Employee {
     int id;

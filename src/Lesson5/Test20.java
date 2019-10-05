@@ -20,5 +20,7 @@ class Test21{
         System.out.println("digit average: " + t.averageCount(1, 2, 3));
         Employee1 e2 = new Employee1(500);
         e2.showSalary();
+        Employee1 e3 = new Employee1(400);
+
     }
 }

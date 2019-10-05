@@ -30,7 +30,9 @@ public class Lesson8HW {
 class Lesson8HWTest {
     public static void main(String[] args) {
         System.out.println("Произведение трех чисел равно " + Lesson8HW.composition(3,4,5));
+        System.out.println("Произведение трех чисел равно " + Lesson8HW.composition(2,6,8));
         Lesson8HW.division(5,2);
+        Lesson8HW.division(7,3);
         Lesson8HW round = new Lesson8HW();
         round.r = 4;
         System.out.println("Площадь круга с радиусом " + round.r + " равна " + round.roundSquare(round.r));

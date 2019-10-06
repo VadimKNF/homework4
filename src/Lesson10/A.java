@@ -1,6 +1,4 @@
-package Leeson10import;
-import Lesson9.*;
-import Lesson8nonaccessmodifiers.*;
+package Lesson10;
 
 public class A {
     public static void main(String[] args) {

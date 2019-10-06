@@ -18,26 +18,26 @@ public class Car {
 
 class CarTest {
 
-    //Car c1 = new Car("grey", "l4", 4);
-    //Car c2 = new Car("white", "v6", 2);
 
-    public static int changeDoorsNum(int a, Car ct){
+
+    int changeDoorsNum(int a, Car ct){
         return ct.doorsNum = a;
     }
 
-    public static void swap (Car c1, Car c2){
-        Car c3 = new Car();
-        c3.color = c1.color;
+    void swap (Car c1, Car c2){
+
+        String color = c1.color;
         c1.color = c2.color;
-        c2.color = c3.color;
+        c2.color = color;
     }
 
     public static void main(String[] args) {
+        CarTest ct = new CarTest();
         Car c1 = new Car("grey", "l4", 4);
         Car c2 = new Car("white", "v6", 2);
-        changeDoorsNum(6, c1);
+        ct.changeDoorsNum(6, c1);
         System.out.println(c1.doorsNum);
-        swap(c1, c2);
+        ct.swap(c1, c2);
         System.out.println(c1.color);
         System.out.println(c2.color);
 
